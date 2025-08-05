@@ -1,15 +1,6 @@
 # Alpha Rewards Calculator
 
-This script calculates the total amount of USDC received from holding $ALPHA tokens. It uses the Algorand blockchain to fetch and analyze transactions.
-
-## Features
-- Fetches transactions from the Algorand blockchain.
-- Filters transactions based on sender, receiver, and asset ID.
-- Calculates the total amount of USDC received.
-
-## Prerequisites
-- Node.js installed on your system.
-- An Algorand account address to use as the target receiver.
+This script calculates the total amount of USDC received from holding $ALPHA tokens on Algorand.
 
 ## Setup
 1. Clone this repository:
@@ -35,7 +26,7 @@ npm run start
 ```
 
 ## Output
-The script will output the total amount of USDC received by the target receiver from the ALPHA address, in ALGO units.
+The script will output the total amount of USDC received by the target receiver from Alpha Arcade's distribution address.
 
 ## Notes
 - Ensure the `TARGET_RECEIVER` environment variable is set correctly.
@@ -43,3 +34,4 @@ The script will output the total amount of USDC received by the target receiver 
 
 ## License
 This project is licensed under the MIT License.
+
