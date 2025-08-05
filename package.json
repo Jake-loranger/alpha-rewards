@@ -1,0 +1,30 @@
+{
+  "name": "alpha-rewards",
+  "version": "1.0.0",
+  "description": "This package helps others calculate their rewards from alpha arcade",
+  "main": "src/index.ts",
+  "directories": {
+    "test": "test"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "alpha-rewards"
+  },
+  "author": "jake-loranger",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.2.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@algorandfoundation/algokit-utils": "^9.1.2",
+    "algorand-mcp": "^2.7.7",
+    "algosdk": "^3.0.0",
+    "dotenv": "^17.2.1"
+  }
+}
